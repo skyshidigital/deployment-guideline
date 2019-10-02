@@ -10,6 +10,7 @@ Deployment Guideline
 - [Deployment sprint mobile android ke production](#deployment-sprint-mobile-android-ke-production)
   - [Pedoman Deployment sprint mobile android ke production](#pedoman-deployment-sprint-mobile-android-ke-production)
 - [Pedoman penamaan versi apps android](#pedoman-penamaan-versi-apps-android)
+- [Pedoman Dokumentasi Deployment](#pedoman-dokumentasi-deployment)
   
 
 ### Deployment ke production
@@ -54,6 +55,12 @@ Yang diperlukan saat Deployment sprint mobile android ke production adalah :
     - 1.2.0
     - 1.3.0
     - 1.4.0
+    
+ ## Pedoman Dokumentasi Deployment
+ Pada saat mengalami gagal deployment ke staging atau menemukan kendala mengenai deployment, dapat ditangani dengan langkah-langkah sebai berikut :
+- Setiap ada kegagalan deployment, Developer wajib mencatat keluhan dan perbaikan pada `Document backlog guideline`
+- Lead Developer melakukan analisa dan melakukan perubahan pada `Document Guideline`
+- Publikasi dan sosialisasi perubahan yang terdapat pada `Document guideline` kepada seluruh Developer yang bersangkutan.
 
 
 

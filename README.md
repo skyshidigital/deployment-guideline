@@ -1,10 +1,11 @@
-Deployment Guideline
-==================================
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+### PT. Skyshi Digital Indonesia
+##### Jl. Tampomas No. 9, Trihanggo, Kec. Gamping,
+##### Kab. Sleman, Daerah Istimewa Yogyakarta, Indonesia, 55291.
+##### Phone : (0274) 4547428, Email : hello@skyshi.com 
 
-### Daftar Isi
+# Deployment Guideline
 
+## Daftar Isi
 - [Deployment ke production](#deployment-ke-production)
   - [Pedoman Deployment ke Production](#pedoman-deployment-ke-production)
 - [Deployment sprint mobile android ke production](#deployment-sprint-mobile-android-ke-production)
@@ -39,7 +40,7 @@ Yang diperlukan saat Deployment sprint mobile android ke production adalah :
 - Cek Firebase secara berkala selama 3 hari berturut2, apakah ada laporan issue atau peningkatan crash rate ?
 - Jika dalam 3 hari tidak ada laporan peningkatan crash rate atau issue aneh lainnya, maka tingkatkan rollout 3 hari berikutnya dan seterusnya hingga 50%, 75%, dan 100%
 
-## Pedoman penamaan versi apps android
+### Pedoman penamaan versi apps android
 - Penamaan pada versi android dibagi menjadi 3 sequence, contoh : X menandakan versi major, Y menandakan versi sprint dan Z adalah hotfix jika dibutuhkan pada versi tersebut
 
 - Pada setiap versi nomor hanya berisi angka, bernilai positif dan bernilai bulat tidak boleh menggunakan alphabet, bernilai negatif dan desimal. Contoh :
@@ -56,13 +57,13 @@ Yang diperlukan saat Deployment sprint mobile android ke production adalah :
     - 1.3.0
     - 1.4.0
     
- ## Pedoman Dokumentasi Deployment
+ ### Pedoman Dokumentasi Deployment
  Pada saat mengalami gagal deployment ke staging atau menemukan kendala mengenai deployment, dapat ditangani dengan langkah-langkah sebai berikut :
 - Setiap ada kegagalan deployment, Developer wajib mencatat keluhan dan perbaikan pada `Document backlog guideline`
 - Lead Developer melakukan analisa dan melakukan perubahan pada `Document Guideline`
 - Publikasi dan sosialisasi perubahan yang terdapat pada `Document guideline` kepada seluruh Developer yang bersangkutan.
 
-## Pedoman Penangaan Request dari Klien untuk Join Source Code Management
+### Pedoman Penangaan Request dari Klien untuk Join Source Code Management
 Pedoman penanganan request dari klien untuk join source management (gitlab.skyshi.io) sebagai berikut :
 - Permintaan dari klien harus dikonfirmasi dan mendapat approval oleh COO
 - Klien hanya diberikan akses _`read only`_

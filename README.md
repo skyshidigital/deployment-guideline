@@ -11,7 +11,7 @@ Deployment Guideline
   - [Pedoman Deployment sprint mobile android ke production](#pedoman-deployment-sprint-mobile-android-ke-production)
 - [Pedoman penamaan versi apps android](#pedoman-penamaan-versi-apps-android)
 - [Pedoman Dokumentasi Deployment](#pedoman-dokumentasi-deployment)
-  
+- [Pedoman Penangaan Request dari Klien untuk Join Source Code Management](#pedoman-penangaan-request-dari-klien-untuk-join-source-code-management) 
 
 ### Deployment ke production
 #### Pedoman Deployment ke Production
@@ -62,5 +62,8 @@ Yang diperlukan saat Deployment sprint mobile android ke production adalah :
 - Lead Developer melakukan analisa dan melakukan perubahan pada `Document Guideline`
 - Publikasi dan sosialisasi perubahan yang terdapat pada `Document guideline` kepada seluruh Developer yang bersangkutan.
 
-
+## Pedoman Penangaan Request dari Klien untuk Join Source Code Management
+Pedoman penanganan request dari klien untuk join source management (gitlab.skyshi.io) sebagai berikut :
+- Permintaan dari klien harus dikonfirmasi dan mendapat approval oleh COO
+- Klien hanya diberikan akses _`read only`_
 
